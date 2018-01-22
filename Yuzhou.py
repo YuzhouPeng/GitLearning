@@ -7,3 +7,8 @@ def find_substring(string, sub):
         :type sub: str
         :rtype: int
         """
+        str = string
+        initialpos = str.find(sub)
+        return initialpos
+
+
