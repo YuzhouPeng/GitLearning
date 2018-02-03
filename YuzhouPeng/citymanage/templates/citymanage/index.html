@@ -1,0 +1,32 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Monitor</title>
+    <link rel="stylesheet" type="text/css" href="{% static '/style.css' %}" />
+    <script src={% static 'googlemap.js' %}></script>
+</head>
+<body>
+    <div id = "header">
+        <div id = "logo">
+            <a href="index.html">Logo</a>
+        </div>
+    </div>
+    <div id="leftline">
+        <div class = "leftbutton"><a href="index.html">Monitor</a></div>
+        <div class = "leftbutton"><a href="index.html">Emission</a></div>
+        <div class = "leftbutton"><a href="index.html">Station</a></div>
+        <div class = "leftbutton"><a href="index.html">About</a></div>
+    </div>
+    <div id="googlemap">
+        <div id="map"></div>
+    </div>
+    <ul id="footer">
+        <li class="footer-logo"><a href="www.tcd.ie">Trinity</a></li>
+        <li class="footer-logo">Logo</li>
+        <li class="footer-logo">Logo</li>
+    </ul>
+</body>
+</html>
